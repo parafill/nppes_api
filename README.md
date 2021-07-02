@@ -1,6 +1,8 @@
 # NppesApi
 
-**TODO: Add description**
+This is a Elixir wrapper for interacting with the CMS National Plan and Provider Enumeration System (NPPES) NPI lookup.
+
+For more information visit the [NPI registry](https://npiregistry.cms.hhs.gov/)
 
 ## Installation
 
