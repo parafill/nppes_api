@@ -1,4 +1,4 @@
-# NppesApi
+# Nppes
 
 This is a Elixir wrapper for interacting with the CMS National Plan and Provider Enumeration System (NPPES) NPI lookup.
 
@@ -13,7 +13,6 @@ Nppes.search(%{last_name: "Scott"})
 
 Nppes.search(%{number: "1111111111"})
 ```
-
 
 ## Installation
 
@@ -31,4 +30,3 @@ end
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
 be found at [https://hexdocs.pm/nppes_api](https://hexdocs.pm/nppes_api).
-
