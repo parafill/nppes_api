@@ -6,12 +6,13 @@ For more information visit the [NPI registry](https://npiregistry.cms.hhs.gov/)
 
 ## Usage
 
+```elixir
+Nppes.search(%{first_name: "William"})
 
- ```elixir NPPES.search(%{first_name: "William"})```
+Nppes.search(%{last_name: "Scott"})
 
-  ```elixir NPPES.search(%{last_name: "Scott"})```
-
-  ```elixir NPPES.search(%{number: "1111111111"})```
+Nppes.search(%{number: "1111111111"})
+```
 
 
 ## Installation
