@@ -4,6 +4,16 @@ This is a Elixir wrapper for interacting with the CMS National Plan and Provider
 
 For more information visit the [NPI registry](https://npiregistry.cms.hhs.gov/)
 
+## Usage
+
+
+ ```elixir NPPES.search(%{first_name: "William"})```
+
+  ```elixir NPPES.search(%{last_name: "Scott"})```
+
+  ```elixir NPPES.search(%{number: "1111111111"})```
+
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

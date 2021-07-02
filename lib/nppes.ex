@@ -4,13 +4,11 @@ defmodule Nppes do
 
   ## Usage
 
-  NPPES.search("npi")
+  NPPES.search(%{first_name: "William"})
 
-  NPPES.search("William")
+  NPPES.search(%{last_name: "Scott"})
 
-  NPPES.search("Scott")
-
-
+  NPPES.search(%{number: "1111111111"})
   """
 
   defdelegate search(term), to: Nppes.Api
