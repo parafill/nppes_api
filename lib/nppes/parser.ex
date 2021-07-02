@@ -33,6 +33,6 @@ defmodule Nppes.Parser do
 
   def parse(response), do: response
 
-  defp parse_response_body(body), do: Jason.decode!(body)
+  defp parse_response_body(body), do: Jason.decode!(body, keys: :atoms)
   defp parse_headers(headers), do: Map.new(headers)
 end

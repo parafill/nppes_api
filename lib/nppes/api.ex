@@ -21,6 +21,11 @@ defmodule Nppes.Api do
     |> Parser.parse()
   end
 
+  def search!(terms) do
+    {_, result} = search(terms)
+    result
+  end
+
   defp build_url(query_string) do
     @base_url <> query_string
   end
